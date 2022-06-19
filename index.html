@@ -21,7 +21,6 @@
 
   <main class="flex-row justify-space-between">
     <div class="col-12 col-md-4">
-
       <div class="card">
         <h3 class="card-header text-uppercase">Search By User</h3>
         <form id="user-form" class="card-body">
@@ -30,12 +29,13 @@
           <button type="submit" class="btn">Get User</button>
         </form>
       </div>
-      <div class=card>
+
+      <div class="card">
         <h3 class="card-header text-uppercase">Search By Topic</h3>
-        <div class="card-body" id="language-buttons">
-          <button class="btn" data="data-language">Javascript</button>
-          <button class="btn" data="data-language">HTML</button>
-          <button class="btn" data="data-language">CSS</button>
+        <div id="language-buttons" class="card-body">
+          <button data-language="javascript" class="btn">JavaScript</button>
+          <button data-language="html" class="btn">HTML</button>
+          <button data-language="css" class="btn">CSS</button>
         </div>
       </div>
     </div>
